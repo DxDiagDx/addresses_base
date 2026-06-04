@@ -1,0 +1,26 @@
+Создаём базу {provider}_normalise.db
+
+CREATE TABLE "addresses" (
+	"id"	INTEGER NOT NULL,
+
+	"RegionName"	TEXT,
+	"RegionPrefix"	TEXT,
+
+	"CityName"	TEXT,
+	"CityPrefix"	TEXT,
+
+	"DistrictName"	TEXT,
+	"DistrictPrefix"	TEXT,
+
+	"LocalityName"	TEXT,
+	"LocalityPrefix"	TEXT,
+
+	"StreetName"	TEXT,
+	"StreetPrefix"	TEXT,
+	
+	"HouseNumber"	TEXT,
+	"HouseBlock"	TEXT,
+	"HouseBuilding"	TEXT,
+	"FiasCode"	TEXT,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);

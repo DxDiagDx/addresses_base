@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv-pycharm/
+venv/
+env/
+ENV/
+.env
+
+# Базы данных
+*.db
+*.sqlite3
+*.sqlite
+
+# Логи
+*.log
+import.log
+
+# Файлы с данными
+*.csv
+*.json
+*.xlsx
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PostgreSQL
+pgdata/
